@@ -21,7 +21,7 @@ const Home = () => {
           </motion.header>
           <motion.div className='home-content' {...headContainerAnimation}>
             <motion.div   {...headTextAnimation}>
-              <h1 className='head-text'>
+              <h1 className='head-text border border-white p-4'>
                 LET'S <br className='xl: block hidden'/> DO IT.
               </h1>
             </motion.div>
@@ -29,7 +29,7 @@ const Home = () => {
               {...headContentAnimation}
               className='flex flex-col gap-5'
             >
-              <p className='max-w-md font-normal text-gray-600 text-base'>
+              <p className='max-w-md font-normal text-white text-base'>
                 Create your unique and exclusive shirt with our
                 brand new 3D customization tool. <strong>Every print is possible</strong>
               </p>
